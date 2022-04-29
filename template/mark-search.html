@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=10.0">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,1000;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;10,1000;10,200;10,300;10,400;10,500;10,600;10,700;10,800;10,900&display=swap');
+    </style>
+
+    <link href='https://unpkg.com/boxicons@2.10.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/mark-search.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Bảng điểm</title>
+  </head>
+
+  <body>
+    <div class="web-container">
+      <header class="header-container">
+        <div class="header">
+          <div class="header-logo"><a href="index.html">LMS</a></div>
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item"><a href="index.html" class="header-nav-link">Trang
+                  chủ</a></li>
+              <li class="header-nav-item"><a href="time-table.html" class="header-nav-link">Thời
+                  khóa biểu</a></li>
+              <li class="header-nav-item"><a href="mark-search.html" class="header-nav-link header-nav-link-active">Tra cứu điểm</a></li>
+              <li class="header-nav-item"><a href="mark-statistics.html"
+                  class="header-nav-link">Bảng điểm</a></li>
+              <li class="header-nav-item"><a href="news.html" class="header-nav-link">Tin tức</a></li>
+              <li class="header-nav-item"><a href="about.html" class="header-nav-link">Giới thiệu</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="content-container">
+        <div class="heading">
+          <h10 class="heading-title">Tra cứu điểm</h10>
+          <span class="heading-link">
+            <a href="index.html">Trang chủ </a>
+            <span>/ Tra cứu điểm</span>
+          </span>
+        </div>
+        <div class="select-box">
+          <div class="select-class">
+            <form action="">
+              <select name="" id="">
+                <option value="">Lớp 1</option>
+                <option value="">Lớp 2</option>
+                <option value="">Lớp 3</option>
+                <option value="">Lớp 4</option>
+                <option value="">Lớp 5</option>
+              </select>
+            </form>
+          </div>
+          <div class="select-class">
+            <form action="">
+              <select name="" id="">
+                <option value="">Khối A</option>
+                <option value="">Khối B</option>
+                <option value="">Khối C</option>
+                <option value="">Khối D</option>
+                <option value="">Khối E</option>
+              </select>
+            </form>
+          </div>
+          <div class="input-name">
+            <form action="">
+              <input type="text" placeholder="Nhập tên học sinh">
+              <input type="submit" value="Tìm kiếm">
+            </form>
+          </div>
+        </div>
+        <div class="table">
+          <table>
+            <thead>
+              <tr>
+                <th>STT</th>
+                <th>Tên môn học</th>
+                <th>Điểm ...</th>
+                <th>Điểm ...</th>
+                <th>Điểm ...</th>
+                <th>Điểm ...</th>
+                <th>Điểm ...</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="7">
+                  <div class="table-item">
+                    <div class="table-item-content" style="text-transform: uppercase; font-weight: 600; font-size: 20px;">
+                      <span>Kỳ I</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>1</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>Toán</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>2</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>Toán</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>3</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>Toán</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>4</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>Toán</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>5</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>Toán</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>6</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>Toán</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="7">
+                  <div class="table-item">
+                    <div class="table-item-content" style="text-transform: uppercase; font-weight: 600; font-size: 20px;">
+                      <span>Kỳ II</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>1</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>Toán</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>2</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>Toán</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>3</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>Toán</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>4</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>Toán</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>5</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>Toán</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>6</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>Toán</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-item">
+                    <div class="table-item-content">
+                      <span>10</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <footer class="footer-container">
+        <div class="bottom">
+          <div class="bottom-item">
+            <p class="bottom-item-title">LMS</p>
+            <div class="bottom-item-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic error aut
+              neque exercitationem rerum facere dolor architecto dolorum, pariatur beatae, sit et similique placeat
+              eveniet quidem perspiciatis iusto animi. Reiciendis!</div>
+          </div>
+          <div class="bottom-item">
+            <p class="bottom-item-title">About School</p>
+            <div class="bottom-item-content">
+              <ul class="bottom-about-list">
+                <li class="bottom-about-item">
+                  <a href="#">Về nhà trường</a>
+                </li>
+                <li class="bottom-about-item">
+                  <a href="#">Đội ngũ giáo viên</a>
+                </li>
+                <li class="bottom-about-item">
+                  <a href="#">Đối tác</a>
+                </li>
+                <li class="bottom-about-item">
+                  <a href="#">Hệ thống</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="bottom-item">
+            <p class="bottom-item-title">Tuyển sinh</p>
+            <div class="bottom-item-content">
+              <ul class="bottom-about-list">
+                <li class="bottom-about-item">
+                  <a href="#">Tiêu chí</a>
+                </li>
+                <li class="bottom-about-item">
+                  <a href="#">Năm 2023</a>
+                </li>
+                <li class="bottom-about-item">
+                  <a href="#">Năm 2022</a>
+                </li>
+                <li class="bottom-about-item">
+                  <a href="#">Năm 20210</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="bottom-item">
+            <p class="bottom-item-title">Liên hệ</p>
+            <div class="bottom-item-content">
+              <ul class="bottom-contact-list">
+                <li class="bottom-contact-item">
+                  <i class='bx bx-envelope'></i>
+                  <a class="bottom-contact-item-link" href="#">
+                    <a href="mailto:example@language-school.com">example@language-school.com</a>
+                  </a>
+                </li>
+                <li class="bottom-contact-item">
+                  <i class='bx bx-mobile-alt'></i>
+                  <span>Hotline: 09876543210</span>
+                </li>
+
+                <li class="bottom-contact-item">
+                  <i class='bx bxs-location-plus'></i>
+                  <span>xxx Đường XXX, Phường XXX, Quận XXX, Thành Phố XXX</span>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <p>
+            Privacy Policy / This is a management system website - Copyright © 2022 / All Rights Reserved
+          </p>
+          <div class="contact">
+            <ul class="contact-list">
+              <li class="contact-list-item">
+                <a href="#linkedIn"><i class='bx bxl-linkedin'></i></a>
+              </li>
+              <li class="contact-list-item">
+                <a href="#facebook"><i class='bx bxl-facebook'></i></a>
+              </li>
+              <li class="contact-list-item">
+                <a href="#twitter"><i class='bx bxl-twitter'></i></a>
+              </li>
+              <li class="contact-list-item">
+                <a href="#skype"><i class='bx bxl-skype'></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+</html>

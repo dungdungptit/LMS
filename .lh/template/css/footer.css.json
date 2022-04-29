@@ -1,0 +1,34 @@
+{
+    "sourceFile": "template/css/footer.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1651208049164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1651208054621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -97,4 +97,5 @@\n \r\n .contact-list-item:hover * {\r\n   color: white;\r\n }\r\n+col-span\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651208066205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,6 +96,6 @@\n }\r\n \r\n .contact-list-item:hover * {\r\n   color: white;\r\n-}\r\n-col-span\n\\ No newline at end of file\n+  col-span\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651208071748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,6 +96,6 @@\n }\r\n \r\n .contact-list-item:hover * {\r\n   color: white;\r\n-  col-span\r\n+  colspan:\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651208079548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,6 +96,5 @@\n }\r\n \r\n .contact-list-item:hover * {\r\n   color: white;\r\n-  colspan:\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1651208049164,
+            "name": "Commit-0",
+            "content": ".footer-container {\r\n  background-color: #3d3d47;\r\n}\r\n\r\n.footer-container * {\r\n  color: #ffffff4d;\r\n  font-size: 13px;\r\n  line-height: 30px;\r\n}\r\n\r\n.bottom {\r\n  padding: 50px 100px;\r\n  border-bottom: 1px solid #ccc;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: flex-start;\r\n}\r\n\r\n.bottom-item {\r\n  width: 25%;\r\n  margin: 0 20px;\r\n}\r\n\r\n.bottom-item-title {\r\n  position: relative;\r\n  margin-bottom: 30px;\r\n}\r\n\r\n.bottom-item-content {}\r\n\r\n.bottom-item:first-of-type .bottom-item-title {\r\n  font-size: 30px;\r\n  font-weight: bold;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.bottom-item:not(:first-of-type) .bottom-item-title::after {\r\n  content: \"\";\r\n  width: 70%;\r\n  height: 2px;\r\n  position: absolute;\r\n  top: 150%;\r\n  left: -5%;\r\n  background-color: #01a2a6;\r\n}\r\n\r\n.bottom-item-title {\r\n  font-size: 20px;\r\n  color: white;\r\n}\r\n\r\n.bottom-about-item {\r\n  padding: 10px 0;\r\n  border-bottom: 1px solid #cccccc52;\r\n}\r\n\r\n.bottom-about-item:hover * {\r\n  color: white;\r\n}\r\n\r\n.bottom-contact-item {\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  align-items: center;\r\n  padding: 10px 0;\r\n}\r\n\r\n.bottom-contact-item i {\r\n  font-size: 20px;\r\n  margin-right: 20px;\r\n}\r\n\r\n.bottom-contact-item:hover a {\r\n  color: white;\r\n}\r\n\r\n.footer {\r\n  padding: 12px 100px;\r\n}\r\n\r\n.footer {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n\r\n.contact ul {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.contact-list-item * {\r\n  margin-right: 4px;\r\n  font-size: 16px;\r\n}\r\n\r\n.contact-list-item:hover * {\r\n  color: white;\r\n}\r\n"
+        }
+    ]
+}

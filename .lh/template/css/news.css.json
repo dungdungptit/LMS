@@ -1,0 +1,62 @@
+{
+    "sourceFile": "template/css/news.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1651219437149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1651219444740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     display: flex;\r\n     justify-content: space-between;\r\n     align-items: center;\r\n     background-color: #01a2a6;\r\n-    padding: 10px 100px;\r\n+    /* padding: 10px 100px; */\r\n     color: #fff;\r\n }\r\n \r\n /* section {\r\n"
+                },
+                {
+                    "date": 1651219450454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,15 +3,15 @@\n     display: flex;\r\n     justify-content: space-between;\r\n     align-items: center;\r\n     background-color: #01a2a6;\r\n-    /* padding: 10px 100px; */\r\n+    padding: 10px 100px;\r\n     color: #fff;\r\n }\r\n \r\n-/* section {\r\n+section {\r\n     padding: 20px 100px;\r\n-} */\r\n+}\r\n \r\n #page{\r\n     padding: 0 11%;\r\n }\r\n"
+                },
+                {
+                    "date": 1651219464204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,11 +11,8 @@\n section {\r\n     padding: 20px 100px;\r\n }\r\n \r\n-#page{\r\n-    padding: 0 11%;\r\n-}\r\n \r\n .heading h1 {\r\n     font-size: 40px;\r\n     font-weight: 400;\r\n"
+                },
+                {
+                    "date": 1651219546332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,27 +11,30 @@\n section {\r\n     padding: 20px 100px;\r\n }\r\n \r\n-\r\n-.heading h1 {\r\n-    font-size: 40px;\r\n-    font-weight: 400;\r\n-    color: #fff;\r\n+.heading {\r\n+    display: flex;\r\n+    justify-content: space-between;\r\n+    align-items: center;\r\n+    background-color: #01a2a6;\r\n+    color: white;\r\n+    height: 90px;\r\n+    padding: 0 100px;\r\n }\r\n \r\n-.heading p{\r\n-    color: #fff;\r\n+.heading * {\r\n+    color: white;\r\n }\r\n \r\n-.heading p a{\r\n-    color: #ffffffcc;\r\n+.heading-title {\r\n+    text-transform: uppercase;\r\n+    font-size: 28px;\r\n }\r\n \r\n-.heading p a:hover{\r\n-    color: #fff;\r\n+.heading-link * {\r\n+    font-size: 14px;\r\n }\r\n-\r\n .news{\r\n     display: flex;\r\n     justify-content: space-between;\r\n     background-color: #fff;\r\n"
+                },
+                {
+                    "date": 1651219564413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,5 @@\n-.heading {\r\n-    margin-top: 100px;\r\n-    display: flex;\r\n-    justify-content: space-between;\r\n-    align-items: center;\r\n-    background-color: #01a2a6;\r\n-    padding: 10px 100px;\r\n-    color: #fff;\r\n-}\r\n+#\r\n \r\n section {\r\n     padding: 20px 100px;\r\n }\r\n"
+                },
+                {
+                    "date": 1651219573683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n-#\r\n+#page {\r\n+    \r\n+}\r\n \r\n section {\r\n     padding: 20px 100px;\r\n }\r\n"
+                },
+                {
+                    "date": 1651219579840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n #page {\r\n-    \r\n+    padding-top: 100px;\r\n }\r\n \r\n section {\r\n     padding: 20px 100px;\r\n"
+                },
+                {
+                    "date": 1651219680279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n \r\n .heading-link * {\r\n     font-size: 14px;\r\n }\r\n+h\r\n .news{\r\n     display: flex;\r\n     justify-content: space-between;\r\n     background-color: #fff;\r\n"
+                },
+                {
+                    "date": 1651219689512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n \r\n .heading-link * {\r\n     font-size: 14px;\r\n }\r\n-h\r\n+.\r\n .news{\r\n     display: flex;\r\n     justify-content: space-between;\r\n     background-color: #fff;\r\n"
+                },
+                {
+                    "date": 1651219695961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n \r\n .heading-link * {\r\n     font-size: 14px;\r\n }\r\n-.header\r\n+.header-\r\n .news{\r\n     display: flex;\r\n     justify-content: space-between;\r\n     background-color: #fff;\r\n"
+                },
+                {
+                    "date": 1651219717620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n \r\n .heading-link * {\r\n     font-size: 14px;\r\n }\r\n-.heading-link a:hover \r\n+.heading-link a:hover {}\r\n .news{\r\n     display: flex;\r\n     justify-content: space-between;\r\n     background-color: #fff;\r\n"
+                }
+            ],
+            "date": 1651219437149,
+            "name": "Commit-0",
+            "content": ".heading {\r\n    margin-top: 100px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    background-color: #01a2a6;\r\n    padding: 10px 100px;\r\n    color: #fff;\r\n}\r\n\r\n/* section {\r\n    padding: 20px 100px;\r\n} */\r\n\r\n#page{\r\n    padding: 0 11%;\r\n}\r\n\r\n.heading h1 {\r\n    font-size: 40px;\r\n    font-weight: 400;\r\n    color: #fff;\r\n}\r\n\r\n.heading p{\r\n    color: #fff;\r\n}\r\n\r\n.heading p a{\r\n    color: #ffffffcc;\r\n}\r\n\r\n.heading p a:hover{\r\n    color: #fff;\r\n}\r\n\r\n.news{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    background-color: #fff;\r\n    padding-top: 70px;\r\n}\r\n\r\n.col-left{\r\n    width: 30%;\r\n    padding-right: 15px;\r\n}\r\n\r\n.col-right{\r\n    width: 70%;\r\n    padding-left: 15px;\r\n}\r\n\r\n.news-search{\r\n    display: flex;\r\n    justify-content: start;\r\n    align-items: center;\r\n}\r\n\r\n.news-search form{\r\n    padding: 10px 0;\r\n    position: relative;\r\n}\r\n\r\n.news-search form input{\r\n    width: 100%;\r\n    height: 40px;\r\n    border: 1px solid #ccc;\r\n    border-radius: 5px;\r\n    padding: 0 10px;\r\n    font-size: 14px;\r\n}\r\n\r\n.news-search form button{\r\n    position: absolute;\r\n    right: 0;\r\n    top: 7px;\r\n    color: #fff;\r\n    background: transparent;\r\n    border: none;\r\n    padding: 10px;\r\n    font-size: 14px;\r\n    cursor: pointer;\r\n}\r\n\r\n.news-search form button i{\r\n    font-size: 24px;\r\n    color: #000;\r\n}\r\n\r\n.news-categories{\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 10px;\r\n}\r\n\r\n.news-categories a{\r\n    color: #01a2a6;\r\n    font-size: 16px;\r\n    font-weight: 400;\r\n    padding-left: 5px;\r\n    text-decoration: none;\r\n}\r\n\r\n.news-categories a:hover{\r\n    color: #000;\r\n}\r\n\r\n.news-body{\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 30px;\r\n}\r\n\r\n.news-item{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    padding: 10px 0;\r\n    border-bottom: 1px solid #ccc;\r\n}\r\n\r\n.news-item-content{\r\n    padding-bottom: 10px;\r\n}\r\n\r\n.news-item-img{\r\n    width: 100%;\r\n}\r\n\r\n.news-item-img img{\r\n    width: 100%;\r\n    height: 100%;\r\n    object-fit: cover;\r\n}\r\n\r\n.news-item-info{\r\n    margin-top: 10px;\r\n}\r\n\r\n.news-item-title{\r\n    margin-bottom: 5px;\r\n}\r\n\r\n.news-item-title a h2{\r\n    font-size: 28px;\r\n    font-weight: 500;\r\n    color: #01a2a6;\r\n}\r\n\r\n.news-item-title a:hover h2{\r\n    color: #000;\r\n}\r\n\r\n.news-item-description p{\r\n    font-size: 14px;\r\n    color: #666;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.news-item-date p{\r\n    font-size: 14px;\r\n    color: #000;\r\n}\r\n\r\n.news-more{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    margin: 30px auto;\r\n    padding: 10px 0;\r\n    border: #ccc 1px solid;\r\n    border-radius: 30px;\r\n    width: 160px;\r\n}\r\n\r\n.news-more a{\r\n    color: #01a2a6;\r\n    font-size: 16px;\r\n    font-weight: 400;\r\n    text-decoration: none;\r\n}\r\n\r\n.news-more:hover{\r\n    border: #000 1px solid;\r\n}\r\n\r\n.news-more:hover a{\r\n    color: #000;\r\n}"
+        }
+    ]
+}

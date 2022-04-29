@@ -1,0 +1,71 @@
+.content-container {
+  padding-top: 100px;
+  background-color: white;
+  position: relative;
+}
+
+.select-box {
+  padding: 60px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-box select {
+  border: none;
+  outline: none;
+  background-color: rgb(229, 227, 227);
+  border-radius: 20px;
+  padding: 8px 26px;
+}
+
+select option {
+  background-color: white;
+}
+
+.table {
+  position: relative;
+  width: 100%;
+  padding:0 0px 100px;
+  
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  width: calc(100% / 7);
+  padding: 12px;
+}
+
+th {
+  background-color: #01a2a6;
+  color: white;
+}
+
+.table-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.table-item-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.table-item-title * {
+  font-weight: 500;
+}
+.table-item-content * {
+  color: #848484;
+}

@@ -1,0 +1,22 @@
+{
+    "sourceFile": "template/css/time-table.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1651208723292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1651219786461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,6 +89,6 @@\n .table-item-title * {\r\n   font-weight: 500;\r\n }\r\n .table-item-content * {\r\n-  color: rgb(132, 132, 132);\r\n+  color: #848484;\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1651208723292,
+            "name": "Commit-0",
+            "content": ".content-container {\r\n  padding-top: 100px;\r\n  background-color: white;\r\n  position: relative;\r\n}\r\n\r\n.heading {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  background-color: #01a2a6;\r\n  color: white;\r\n  height: 90px;\r\n  padding: 0 100px;\r\n}\r\n\r\n.heading * {\r\n  color: white;\r\n}\r\n\r\n.heading-title {\r\n  text-transform: uppercase;\r\n  font-size: 28px;\r\n}\r\n\r\n.heading-link * {\r\n  font-size: 14px;\r\n}\r\n\r\n.select-box {\r\n  padding: 60px 100px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n\r\n.select-class {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.select-box select {\r\n  border: none;\r\n  outline: none;\r\n  background-color: rgb(229, 227, 227);\r\n  border-radius: 20px;\r\n  padding: 8px 26px;\r\n}\r\n\r\nselect option {\r\n  background-color: white;\r\n}\r\n\r\n.table {\r\n  position: relative;\r\n  width: 100%;\r\n  padding:0 0px 100px;\r\n  \r\n}\r\ntable {\r\n  border-collapse: collapse;\r\n  width: 100%;\r\n}\r\n\r\ntd, th {\r\n  border: 1px solid #ccc;\r\n  width: calc(100% / 7);\r\n  padding: 12px;\r\n}\r\n\r\nth {\r\n  background-color: #01a2a6;\r\n  color: white;\r\n}\r\n\r\n.table-item {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  flex-direction: column;\r\n}\r\n.table-item-title {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  flex-direction: column;\r\n}\r\n.table-item-title * {\r\n  font-weight: 500;\r\n}\r\n.table-item-content * {\r\n  color: rgb(132, 132, 132);\r\n}"
+        }
+    ]
+}

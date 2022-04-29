@@ -1,0 +1,54 @@
+{
+    "sourceFile": "template/css/mark-statistics.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1651208738829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1651208765121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,5 +49,51 @@\n }\r\n \r\n select option {\r\n   background-color: white;\r\n+}\r\n+\r\n+.table {\r\n+  position: relative;\r\n+  width: 100%;\r\n+  padding: 0 0px 100px;\r\n+\r\n+}\r\n+\r\n+table {\r\n+  border-collapse: collapse;\r\n+  width: 100%;\r\n+}\r\n+\r\n+td,\r\n+th {\r\n+  border: 1px solid #ccc;\r\n+  width: calc(100% / 7);\r\n+  padding: 12px;\r\n+}\r\n+\r\n+th {\r\n+  background-color: #01a2a6;\r\n+  color: white;\r\n+}\r\n+\r\n+.table-item {\r\n+  display: flex;\r\n+  justify-content: center;\r\n+  align-items: center;\r\n+  flex-direction: column;\r\n+}\r\n+\r\n+.table-item-title {\r\n+  display: flex;\r\n+  justify-content: center;\r\n+  align-items: center;\r\n+  flex-direction: column;\r\n+}\r\n+\r\n+.table-item-title * {\r\n+  font-weight: 500;\r\n+}\r\n+\r\n+.table-item-content * {\r\n+  color: rgb(132, 132, 132);\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651208784204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n   justify-content: space-between;\r\n   align-items: center;\r\n }\r\n \r\n-.select-class {\r\n+.select-semester {\r\n   display: flex;\r\n   justify-content: center;\r\n   align-items: center;\r\n }\r\n"
+                },
+                {
+                    "date": 1651209096822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,5 +95,6 @@\n }\r\n \r\n .table-item-content * {\r\n   color: rgb(132, 132, 132);\r\n-}\n\\ No newline at end of file\n+}\r\n+th:fi\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651209103360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,5 +96,5 @@\n \r\n .table-item-content * {\r\n   color: rgb(132, 132, 132);\r\n }\r\n-th:fi\n\\ No newline at end of file\n+th:first-of-type, td:first\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651209108636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,5 +96,5 @@\n \r\n .table-item-content * {\r\n   color: rgb(132, 132, 132);\r\n }\r\n-th:first-of-type, td:first\n\\ No newline at end of file\n+th:first-of-type, td:first-of-type {}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651209115170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,5 +96,7 @@\n \r\n .table-item-content * {\r\n   color: rgb(132, 132, 132);\r\n }\r\n-th:first-of-type, td:first-of-type {}\n\\ No newline at end of file\n+th:first-of-type, td:first-of-type {\r\n+  max-width: ;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651209125121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -97,6 +97,6 @@\n .table-item-content * {\r\n   color: rgb(132, 132, 132);\r\n }\r\n th:first-of-type, td:first-of-type {\r\n-  max-width: ;\r\n+  max-width: 30px !important;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651209167678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,7 +96,7 @@\n \r\n .table-item-content * {\r\n   color: rgb(132, 132, 132);\r\n }\r\n-th:first-of-type, td:first-of-type {\r\n-  max-width: 30px !important;\r\n+th:first-child, td:first-child {\r\n+  width: 30px !important;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1651217845248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,9 +82,8 @@\n   align-items: center;\r\n   flex-direction: column;\r\n }\r\n \r\n-\r\n .table-item-title * {\r\n   font-weight: 500;\r\n }\r\n \r\n"
+                }
+            ],
+            "date": 1651208738829,
+            "name": "Commit-0",
+            "content": ".content-container {\r\n  padding-top: 100px;\r\n  background-color: white;\r\n  position: relative;\r\n}\r\n\r\n.heading {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  background-color: #01a2a6;\r\n  color: white;\r\n  height: 90px;\r\n  padding: 0 100px;\r\n}\r\n\r\n.heading * {\r\n  color: white;\r\n}\r\n\r\n.heading-title {\r\n  text-transform: uppercase;\r\n  font-size: 28px;\r\n}\r\n\r\n.heading-link * {\r\n  font-size: 14px;\r\n}\r\n\r\n.select-box {\r\n  padding: 60px 100px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n\r\n.select-class {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.select-box select {\r\n  border: none;\r\n  outline: none;\r\n  background-color: rgb(229, 227, 227);\r\n  border-radius: 20px;\r\n  padding: 8px 26px;\r\n}\r\n\r\nselect option {\r\n  background-color: white;\r\n}"
+        }
+    ]
+}
