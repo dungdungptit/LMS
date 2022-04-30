@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Học sinh</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- custom admin css file link  -->
+   <link rel="stylesheet" href="css/admin_style.css">
+   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+   
+   <header class="header">
+
+      <div class="flex">
+            <a href="admin_page.html" class="logo">
+               LMS 
+               <span> Admin</span>
+           </a>
+   
+         <nav class="navbar">
+            <a class="nav-item" href="admin_page.html">Trang chủ
+               <i class="fas fa-home"></i>
+            </a>
+            <a class="nav-item" href="admin_teacher.html">Giáo viên
+               <i class="fas fa-user-tie"></i>
+            </a>
+            <a class="nav-item" href="admin_student.html">Học sinh
+               <span class="badge">
+                  <i class="fas fa-user-graduate"></i>
+               </span>
+               
+            </a>
+             
+            <a class="nav-item" href="admin_contacts.html">Thông báo
+               <span class="badge">
+                  <i class="fas fa-bell"></i>
+               </span>
+            </a>
+         </nav>
+   
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+         </div>
+   
+         <div class="account-box">
+            
+            <div class="admin">
+               <div class="image">
+                     <img src="images/User_Avatar_2.png" alt="" />
+               </div>
+               <div class="name">
+                     <h3>Tên</h3>
+                     <p>Họ và tên</p>
+               </div>
+            </div>
+            <div class="control">
+               <div class="control-item">
+                     <a href="#">
+                        <div class="control-item-icon">
+                           <i class="fas fa-cog"></i>
+                           <p>Cài đặt</p>
+                        </div>
+                     </a>
+               </div>
+   
+               <div class="control-item">
+                     <a href="logout.html">
+                        <div class="control-item-icon">
+                           <i class="fas fa-sign-out-alt"></i>
+                           <p>Đăng xuất</p>
+                        </div>
+                     </a>
+               </div>
+            </div>
+            <div class="other-account">Tài khoản khác <a href="login.html">Đăng nhập</a> | <a href="register.html">Đăng ký</a> </div>
+         </div>
+   
+      </div>
+   
+   </header>
+<section class="show-products">
+   <h1 class="title">Học sinh khối 1</h1>
+
+   <table class="products-table">
+      <tr>
+         <th>STT</th>
+         <th>Hình ảnh</th>
+         <th>Tên Học sinh</th>
+         <th>Lớp</th>
+         <th>Chi tiết</th>
+         <th>Hành động</th>
+      </tr>
+      <tr>
+         <td>1</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn A</td>
+         <td>1A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn B</td>
+         <td>1B</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn C</td>
+         <td>1A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn D</td>
+         <td>1D</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>5</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn E</td>
+         <td>1A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+
+      
+   </table>
+   <h1 class="title">Học sinh khối 2</h1>
+
+   <table class="products-table">
+      <tr>
+         <th>STT</th>
+         <th>Hình ảnh</th>
+         <th>Tên Học sinh</th>
+         <th>Lớp</th>
+         <th>Chi tiết</th>
+         <th>Hành động</th>
+      </tr>
+      <tr>
+         <td>1</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn A</td>
+         <td>2A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn B</td>
+         <td>2B</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn C</td>
+         <td>2A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn D</td>
+         <td>2D</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>5</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn E</td>
+         <td>2A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+
+      
+   </table>
+
+   <h1 class="title">Học sinh khối 3</h1>
+
+   <table class="products-table">
+      <tr>
+         <th>STT</th>
+         <th>Hình ảnh</th>
+         <th>Tên Học sinh</th>
+         <th>Lớp</th>
+         <th>Chi tiết</th>
+         <th>Hành động</th>
+      </tr>
+      <tr>
+         <td>1</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn A</td>
+         <td>3A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn B</td>
+         <td>3B</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn C</td>
+         <td>3A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn D</td>
+         <td>3D</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>5</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn E</td>
+         <td>3A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+
+      
+   </table>
+
+   <h1 class="title">Học sinh khối 4</h1>
+
+   <table class="products-table">
+      <tr>
+         <th>STT</th>
+         <th>Hình ảnh</th>
+         <th>Tên Học sinh</th>
+         <th>Lớp</th>
+         <th>Chi tiết</th>
+         <th>Hành động</th>
+      </tr>
+      <tr>
+         <td>1</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn A</td>
+         <td>4A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn B</td>
+         <td>4B</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn C</td>
+         <td>4A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn D</td>
+         <td>4D</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>5</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn E</td>
+         <td>4A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+
+      
+   </table>
+
+   <h1 class="title">Học sinh khối 5</h1>
+
+   <table class="products-table">
+      <tr>
+         <th>STT</th>
+         <th>Hình ảnh</th>
+         <th>Tên Học sinh</th>
+         <th>Lớp</th>
+         <th>Chi tiết</th>
+         <th>Hành động</th>
+      </tr>
+      <tr>
+         <td>1</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn A</td>
+         <td>5A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn B</td>
+         <td>5B</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn C</td>
+         <td>5A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn D</td>
+         <td>5D</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>5</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn E</td>
+         <td>5A</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+
+      
+   </table>
+
+   
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/admin_script.js"></script>
+
+</body>
+</html>

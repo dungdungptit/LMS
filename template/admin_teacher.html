@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Giáo viên</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- custom admin css file link  -->
+   <link rel="stylesheet" href="css/admin_style.css">
+   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+   
+   <header class="header">
+
+      <div class="flex">
+            <a href="admin_page.html" class="logo">
+               LMS 
+               <span> Admin</span>
+           </a>
+   
+         <nav class="navbar">
+            <a class="nav-item" href="admin_page.html">Trang chủ
+               <i class="fas fa-home"></i>
+            </a>
+            <a class="nav-item" href="admin_teacher.html">Giáo viên
+               <i class="fas fa-user-tie"></i>
+            </a>
+            <a class="nav-item" href="admin_student.html">Học sinh
+               <span class="badge">
+                  <i class="fas fa-user-graduate"></i>
+               </span>
+               
+            </a>
+             
+            <a class="nav-item" href="admin_contacts.html">Thông báo
+               <span class="badge">
+                  <i class="fas fa-bell"></i>
+               </span>
+            </a>
+         </nav>
+   
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+         </div>
+   
+         <div class="account-box">
+            
+            <div class="admin">
+               <div class="image">
+                     <img src="images/User_Avatar_2.png" alt="" />
+               </div>
+               <div class="name">
+                     <h3>Tên</h3>
+                     <p>Họ và tên</p>
+               </div>
+            </div>
+            <div class="control">
+               <div class="control-item">
+                     <a href="#">
+                        <div class="control-item-icon">
+                           <i class="fas fa-cog"></i>
+                           <p>Cài đặt</p>
+                        </div>
+                     </a>
+               </div>
+   
+               <div class="control-item">
+                     <a href="logout.html">
+                        <div class="control-item-icon">
+                           <i class="fas fa-sign-out-alt"></i>
+                           <p>Đăng xuất</p>
+                        </div>
+                     </a>
+               </div>
+            </div>
+            <div class="other-account">Tài khoản khác <a href="login.html">Đăng nhập</a> | <a href="register.html">Đăng ký</a> </div>
+         </div>
+   
+      </div>
+   
+   </header>
+
+<section class="show-products">
+   <h1 class="title">Giáo viên</h1>
+
+   <table class="products-table">
+      <tr>
+         <th>STT</th>
+         <th>Hình ảnh</th>
+         <th>Tên giáo viên</th>
+         <th>Môn học</th>
+         <th>Chi tiết</th>
+         <th>Hành động</th>
+      </tr>
+      <tr>
+         <td>1</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn A</td>
+         <td>Toán</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn B</td>
+         <td>Vật lý</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn C</td>
+         <td>Lịch sử</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn D</td>
+         <td>Văn</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+      <tr>
+         <td>5</td>
+         <td><img src="images/teacher.jpg" alt="" height="40"/></td>
+         <td>Nguyễn Văn E</td>
+         <td>Hóa</td>
+         <td><a href="admin_teacher_detail.html">Chi tiết</a></td>
+         <td><a href="#">Sửa</a> | <a href="#">Xóa</a></td>
+      </tr>
+
+      
+   </table>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/admin_script.js"></script>
+
+</body>
+</html>
