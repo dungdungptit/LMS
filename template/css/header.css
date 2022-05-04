@@ -129,6 +129,19 @@
     display: block;
   }
 
+  .select-semester{
+    width: 100% !important;
+    justify-content: flex-start !important;
+  }
+
+  .select-semester select{
+    width: 100% !important;
+  }
+
+  .select-semester form{
+    width: 50% !important;
+  }
+
   .header-nav{
     display: none;
     position: absolute;
@@ -181,6 +194,10 @@
     padding: 20px 40px !important;
   }
 
+  .table{
+    padding: 0 40px 100px 40px !important;
+  }
+
   .news{
     flex-direction: column;
     gap: 20px;
@@ -208,11 +225,23 @@
   }
 
   .heading{
-    padding: 0 40px;
+    padding: 0 40px !important;
   }
 
   .select-box{
     padding: 60px 40px !important;
+  }
+
+  .select-semester{
+    width: 100% !important;
+  }
+
+  .select-semester select{
+    width: 100% !important;
+  }
+
+  .select-semester form{
+    width: 100% !important;
   }
 
   .header-logo {
@@ -266,6 +295,10 @@
     padding: 20px !important;
   }
 
+  .table{
+    padding: 0 20px 100px 20px !important;
+  }
+
   .news .news-search{
     width: 100% !important;
   }
@@ -310,6 +343,11 @@
     width: 100% !important;
     flex-direction: column;
     align-items: flex-start !important;
+    margin-right: 0 !important;
+  }
+
+  .select-class:first-child form{
+    margin-top: 0 !important;
   }
 
   .select-class form{
